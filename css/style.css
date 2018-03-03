@@ -3,8 +3,30 @@ body {
   font: "Open Sans", sans-serif;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 2000px;
+  height: 300px;
+}
+
+ul li {
+  float: left;
+  width: 400px;
+  height: 300px;
+}
+
 .container {
   padding: 2% 0;
   background: #F0E68C;
+}
+
+#carousel {
+  width: 400px;
+  height: 300px;
+  margin: auto;
+  overflow: auto;
+  border-radius: 10px;
 }
 /*# sourceMappingURL=style.css.map */

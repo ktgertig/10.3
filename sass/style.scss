@@ -6,7 +6,28 @@ body {
 	font: $fonts;
 }
 
+ul {
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+	width: 2000px;
+	height: 300px;
+	li{
+		float: left;
+		width: 400px;
+		height: 300px;
+	}
+}
+
 .container {
 	padding: 2% 0;
 	background: #F0E68C;
+}
+
+#carousel {
+	width: 400px;
+	height: 300px;
+	margin: auto;
+	overflow: auto;
+    border-radius: 10px;
 }
